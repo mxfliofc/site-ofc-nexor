@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "functions": {
+    "api/iptv.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "rewrites": [
+    { "source": "/api/iptv", "destination": "/api/iptv" }
+  ]
+}
